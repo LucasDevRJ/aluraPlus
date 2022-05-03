@@ -1,0 +1,174 @@
+:root {
+    /* As variáveis servem para podermos alterar o valor e facilita na manutenção */
+    --branco-principal: #FFFFFF; 
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    /* A var funciona como uma função mesmo e neste caso esta pegando a variável como parametro */
+    /* Todos os elementos que estão dentro do body terão esta estilização */
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* O asteristico serve para editar todos os elementos de uma só vez */
+* {
+    /* Para remover espaçamento interno e externo de todos os elementos */
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png"); /* Essa tag esta como plano de fundo, pois não é essencial para o entendimento do conteúdo */
+    background-repeat: no-repeat; /* Plano de funo que não repete */
+    background-size: contain; /* para preencher o espaço todo do container */
+    align-items: center; /* Para alinhar a coluna no centro */
+    text-align: center; /* Para alinha o bloco no centro */
+}
+
+/* A div container serve para ser reutilizada na página */
+.container {
+    height: 100vh; /* Irá usar 100% da altura de todos os dispositivos */
+    display: grid; /* Grid separa os elementos um do lado do outro */
+    grid-template-columns: 50% 50%; /* 50% cima e baixo e 50% direita e esquerda */
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px; /* Para colocar borda arredondada */
+    padding: 1em; /* Para colocar espaçamento interno */
+    color: var(--branco-principal);
+    display: block; /* Para deixar os elementos um debaixo do outro */
+    text-decoration: none; /* Remove a decoração do texto */
+    margin-bottom: 1em;
+}
+
+/* O CSS possui pseudoclasses como por exemplo a hover. Elas conseguem detectar a interação com a tela */
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 8em;
+}
+
+.descricao__titulo {
+    font-weight: 700; /* Peso da font */
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block; /* Deixa os blocos um do lado do outro */
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex; /* Deixa os blocos um do lado do outro */
+    justify-content: center; /* Deixar os elementos no centro */
+    list-style-type: none; /* Remove os indicadores da lista */
+    margin: 5em 0;
+}
+
+.dispositivos__lista li:hover {
+    padding: 1em;
+    cursor: pointer;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    padding: 4em 0;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2em;
+    margin-bottom: 2em;
+}
+
+.lista__link {
+    margin: 0 1em;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista__link a:hover { /* Quando o mouse estiver por cima */
+    color: var(--botao-azul);
+}
+
+.lista__link a:active { /* Quando estiver clicando */
+    color: purple;
+}
+
+.rodape__texto {
+    margin-bottom: 2em;
+    padding: 0 2em;
+    color: var(--cinza-secundario);
+}
