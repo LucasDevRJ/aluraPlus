@@ -173,24 +173,28 @@ body {
     color: var(--cinza-secundario);
 }
 
-@media screen and (min-width: 157px) and (max-width: 499px) {
+@media screen and (min-width: 280px) and (max-width: 499px) {
     .container {
+        height: 30em;
         display: block;
-        padding: 9em 0;
+        padding: 4em 0;
     }
 
     .container__imagem {
         width: 80%;
     }
 
+    .container__titulo {
+        margin-top: 4em;
+    }
+
     .principal {
-        /* Da um help */
-        
+      background-position-x: -3.3em;
     }
 
     .container__caixa {
         text-align: center;
-        margin: 0;
+        margin: 0 2em;
         align-items: center;
     }
 
@@ -223,21 +227,34 @@ body {
 
 @media screen and (min-width: 500px) and (max-width: 950px) {
     .container {
+        height: 60em;
         display: block;
-        padding: 9em 0;
+        padding: 2em 0;
     }
 
-    .container__caixa {
-        align-items: center;
+    p {
+        font-size: 3em;
     }
 
     .container__imagem {
         width: 80%;
     }
 
+    .container__titulo {
+        margin-top: 12em;
+    }
+
+    .container__botao {
+        font-size: 2em;
+    }
+
+    .principal {
+      background-position-x: -9em;
+    }
+
     .container__caixa {
         text-align: center;
-        margin: 0;
+        margin: 0 5em;
         align-items: center;
     }
 
@@ -248,7 +265,13 @@ body {
     }
 
     .secundario__imagem {
-        width: 200px;
+        width: 60%;
+    }
+
+    .container__descricao .container__botao {
+        padding: 26px;
+        width: 45%;
+        font-size: 2em;
     }
 
     .dispositivos__titulo {
@@ -265,5 +288,9 @@ body {
 
     .rodape__lista {
         display: block;
+    }
+
+    .lista__link {
+        font-size: 2em;
     }
 }
