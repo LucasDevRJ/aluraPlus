@@ -6,9 +6,9 @@
 
 A Alura Plus é um site para divulgar a nova assinatura da Alura que une o plano normal mais o plano de idiomas, em um plano somente, ou seja, dois planos em um. Onde o aluno poderá estudar a variedade de cursos da Alura, cujos não são somente de programação, como também tem marketing, dados, gestão, desenvolvimento pessoal, entre outros.
 
-![Badge Projeto Terminado](https://img.shields.io/badge/Status-Terminado-green)
+![Badge Projeto Terminado](https://img.shields.io/badge/Status-Terminado-brightgreen)
 
-![Badge Projeto Não Autoral](https://img.shields.io/badge/Autoral-N%C3%A3o-lightgrey)
+![Badge Projeto Não Autoral](https://img.shields.io/badge/Autoral-N%C3%A3o-brightgreen)
 
 ![Badge Desenvolvedor](https://img.shields.io/badge/Desenvolvedor-LucasDevRJ-brightgreen)
 
