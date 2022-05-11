@@ -16,14 +16,14 @@ A Alura Plus é um site para divulgar a nova assinatura da Alura que une o plano
 
 ## 📁 Acesso ao projeto
 
-1. Clique no <a href="https://github.com/LucasDevRJ/aluraPlus">repositorio</a> para o donwload;
+1. Clique no <a href="https://github.com/LucasDevRJ/aluraPlus/archive/refs/heads/master.zip">repositorio</a> para o donwload;
 2. Descompacte o repositorio;
 3. Coloque o repositorio descompactado em alguma IDE;
 4. Agora poderá mexer e até editar o projeto.
 
 ## 🛠️ Abrir e rodar o projeto
 
-* Precisa ter o donwload do <a href="https://github.com/LucasDevRJ/aluraPlus">projeto</a> em seu computador;
+* Precisa ter o donwload do <a href="https://github.com/LucasDevRJ/aluraPlus/archive/refs/heads/master.zip">projeto</a> em seu computador;
 * Precisa ter alguma IDE.
 * IDE recomendada: <a href="https://code.visualstudio.com/">Visual Studio Code</a>
 
