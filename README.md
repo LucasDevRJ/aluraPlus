@@ -40,10 +40,10 @@ Eu realizei algumas alterações no projeto original da 'Barbearia Alura' e irei
 * adição de responsividade nas páginas.
 
 ## Aprendizados
-Posso listar alguns dos meus aprendizados obtidos graças a este projeto de site:
+Posso listar alguns dos conteúdos que revi graças a este curso:
 * Semântica do HTML;
 * Estruturação da Página;
-* Adição de links externos;
+* Adição de links internos;
 * Classes e identificadores;
 * adição do CSS na página HTML;
 * Animações com CSS;
